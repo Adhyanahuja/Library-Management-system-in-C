@@ -1,15 +1,15 @@
 # Library-Management-system-in-C
 This is a library portal where you can issue books and check the books in stock and order them as well. It is a one stop shop for all library related activities.
-#############################################################
+
 ReadMe for assignment submitted by 2019B3PS0534P
 Practical section number: P4
 Asignment question attempted: 2
-#############################################################
+
 Team:
 1. 2019B3PS0534P        Bhavya Patel
 2. 2019B2PS1017P        Lakshit Goel
 3. 2019B4PS0548P        Adhyan Ahuja
-############################################################
+
 Compiling instructions:
 a) Windows:
 Steps to follow for compiling the code are : 1. In terminal change directory to our folder name "2019B3PS0534P_P04" wherever you save it. 
@@ -19,7 +19,7 @@ b) Ubuntu:
 Steps to follow for compiling the code are : 1. In terminal change directory to our folder name "2019B3PS0534P_P04" wherever you save it. 
                                              2. THEN WRITE "gcc 2019B3PS0534P_P04.c"TO COMPILE.
                                              3. THEN WRITE "./a.out" TO RUN THE CODE.
-#############################################################
+
 Books present in our library with their details
 
 sr no.           Book name                                              Author name       Issue number                No of copies
@@ -99,7 +99,7 @@ NOTE: We have already 3 issued books in issuelist file with detail(issuer - book
 								  		         LAKSHIT GOEL - GORA
 These records can be seen in the display issuelist option in the book transaction menu.
 
-############################################################
+
 Description of how to run the code and observe the output:
 **WE HAVE MADE LIBRARY MANAGEMENT SYSTEM IN A UNIQUE WAY WHICH MAINLY USES STRUCTURE ARRAY IN HELP WITH FUNCTIONS, FILES AND LINK LISTS.**
 
@@ -147,7 +147,7 @@ Description of how to run the code and observe the output:
 9. To access the user management menu, press 5. You can check the existing member list which initially includes all three of us. You can add members and
    remove them from the library using this menu. In order to remove a member from the list, you will be prompted to enter the serial number of the member
    in the display list hence before removing, you may have to check the display member list before.
-############################################################
+
 THOUGH WE HAVE COMPLETED NEARLY ALL THE REQUIREMENTS OF THE QUESTION,
 Known limitations of the code:
 1. This program requires you to strictly enter a number input in the menu when asked to pick an option(as this is our input to the switch statements used everywhere)
@@ -160,7 +160,7 @@ Known limitations of the code:
 5. Main book database structure array can not save data once the program has ended as it was way beyond the scope of ours in c programming language to save it 
    in a file using structure array and reading it at multiple places. So the data updated in the structure while running the program gets erased once the program ends.
 6. The linked list used in the user management system can not save data once the program has ended as we were unable to save the linked list in a file.
-#############################################################
+
 Contributions of the team members:
 Module 1 was made by all Bhavya Patel, Adhyan Ahuja and Lakshit Goel.
 Module 2 was made by Bhavya Patel and Adhyan Ahuja.
@@ -169,4 +169,4 @@ Module 4 was made by Bhavya Patel.
 Module 5 was made by Adhyan Ahuja and Lakshit Goel.
 Module 6 was made by Bhavya Patel and Adhyan Ahuja.
 All other processes were done by Bhavya Patel and Adhyan Ahuja. 
-#############################################################
+
